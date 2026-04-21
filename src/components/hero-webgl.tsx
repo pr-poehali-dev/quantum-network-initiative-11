@@ -186,7 +186,7 @@ export const Hero3DWebGL = () => {
             className="bg-red-500 hover:bg-red-600 text-white font-orbitron text-base px-8 py-4 border-0"
             onClick={() => document.getElementById("catalog")?.scrollIntoView({ behavior: "smooth" })}
           >
-            Смотреть каталог
+            Смотреть услуги
           </Button>
           <Button
             size="lg"

@@ -33,10 +33,7 @@ export function Navbar() {
           </div>
 
           <div className="hidden md:flex items-center gap-3">
-            <button className="text-white hover:text-red-500 transition-colors duration-200 relative">
-              <Icon name="ShoppingCart" size={22} />
-            </button>
-            <Button className="bg-red-500 hover:bg-red-600 text-white font-geist border-0">Оформить заказ</Button>
+            <Button className="bg-red-500 hover:bg-red-600 text-white font-geist border-0">Оставить заявку</Button>
           </div>
 
           <div className="md:hidden">
@@ -57,14 +54,14 @@ export function Navbar() {
                 className="block px-3 py-2 font-geist text-white hover:text-red-500 transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
-                Каталог
+                Услуги
               </a>
               <a
                 href="#applications"
                 className="block px-3 py-2 font-geist text-white hover:text-red-500 transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
-                Категории
+                Направления
               </a>
               <a
                 href="#faq"
@@ -75,7 +72,7 @@ export function Navbar() {
               </a>
               <div className="px-3 py-2">
                 <Button className="w-full bg-red-500 hover:bg-red-600 text-white font-geist border-0">
-                  Оформить заказ
+                  Оставить заявку
                 </Button>
               </div>
             </div>

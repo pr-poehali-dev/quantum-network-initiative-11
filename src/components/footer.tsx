@@ -10,7 +10,7 @@ export function Footer() {
               Ecko<span className="text-red-500">gode</span>
             </h2>
             <p className="font-space-mono text-gray-300 mb-6 max-w-md">
-              Официальный магазин нейроинтерфейсов и BCI-устройств. Доставка по всей России. Гарантия 2 года.
+              Профессиональный поиск информации и OSINT-разведка. Работаем легально, быстро и конфиденциально.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
@@ -29,21 +29,21 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-orbitron text-white font-semibold mb-4">Магазин</h3>
+            <h3 className="font-orbitron text-white font-semibold mb-4">Услуги</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#catalog" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Каталог
+                  Каталог услуг
                 </a>
               </li>
               <li>
                 <a href="#applications" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Категории
+                  Направления
                 </a>
               </li>
               <li>
                 <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Акции и скидки
+                  Срочный поиск
                 </a>
               </li>
               <li>
@@ -55,21 +55,21 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-orbitron text-white font-semibold mb-4">Покупателям</h3>
+            <h3 className="font-orbitron text-white font-semibold mb-4">Клиентам</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Доставка и оплата
+                  Как это работает
                 </a>
               </li>
               <li>
                 <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Возврат и обмен
+                  Оплата
                 </a>
               </li>
               <li>
                 <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Сервисные центры
+                  Конфиденциальность
                 </a>
               </li>
               <li>
