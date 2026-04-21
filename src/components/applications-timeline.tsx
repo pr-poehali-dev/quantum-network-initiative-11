@@ -28,7 +28,7 @@ export function ApplicationsTimeline() {
       ),
     },
     {
-      title: "Продуктивность и работа",
+      title: "ИИ и работа",
       content: (
         <div>
           <p className="text-white text-sm md:text-base font-normal mb-6 leading-relaxed">
