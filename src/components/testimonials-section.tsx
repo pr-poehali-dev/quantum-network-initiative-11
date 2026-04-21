@@ -46,7 +46,7 @@ export function TestimonialsSection() {
               <CardContent className="p-6">
                 <div className="flex gap-1 mb-4">
                   {Array.from({ length: testimonial.rating }).map((_, i) => (
-                    <Icon key={i} name="Star" size={16} className="text-red-500 fill-red-500" />
+                    <Icon key={i} name="Star" size={16} className="text-violet-500 fill-violet-500" />
                   ))}
                 </div>
                 <p className="text-card-foreground mb-6 leading-relaxed italic">"{testimonial.content}"</p>

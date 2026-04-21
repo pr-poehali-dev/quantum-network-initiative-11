@@ -68,8 +68,8 @@ export function FeaturesSection() {
             >
               <CardHeader>
                 <div className="flex items-center justify-between mb-2">
-                  <div className="w-12 h-12 rounded-lg bg-red-500/10 flex items-center justify-center">
-                    <Icon name={product.icon} size={24} className="text-red-500" />
+                  <div className="w-12 h-12 rounded-lg bg-violet-500/10 flex items-center justify-center">
+                    <Icon name={product.icon} size={24} className="text-violet-500" />
                   </div>
                   <Badge variant="secondary" className="bg-accent text-accent-foreground">
                     {product.badge}
@@ -82,8 +82,8 @@ export function FeaturesSection() {
                   {product.description}
                 </CardDescription>
                 <div className="mt-6 flex items-center justify-between">
-                  <span className="text-xl font-bold text-red-500 font-orbitron">{product.price}</span>
-                  <Button size="sm" className="bg-red-500 hover:bg-red-600 text-white border-0">
+                  <span className="text-xl font-bold text-violet-500 font-orbitron">{product.price}</span>
+                  <Button size="sm" className="bg-violet-500 hover:bg-violet-600 text-white border-0">
                     В корзину
                   </Button>
                 </div>

@@ -2,27 +2,27 @@ import Icon from "@/components/ui/icon"
 
 export function Footer() {
   return (
-    <footer className="bg-black border-t border-red-500/20">
+    <footer className="bg-black border-t border-violet-500/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <h2 className="font-orbitron text-2xl font-bold text-white mb-4">
-              Ecko<span className="text-red-500">gode</span>
+              Ecko<span className="text-violet-500">gode</span>
             </h2>
             <p className="font-space-mono text-gray-300 mb-6 max-w-md">
               Профессиональный поиск информации и OSINT-разведка. Работаем легально, быстро и конфиденциально.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
+              <a href="#" className="text-gray-400 hover:text-violet-500 transition-colors duration-200">
                 <Icon name="Send" size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
+              <a href="#" className="text-gray-400 hover:text-violet-500 transition-colors duration-200">
                 <Icon name="Youtube" size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
+              <a href="#" className="text-gray-400 hover:text-violet-500 transition-colors duration-200">
                 <Icon name="Instagram" size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
+              <a href="#" className="text-gray-400 hover:text-violet-500 transition-colors duration-200">
                 <Icon name="Mail" size={20} />
               </a>
             </div>
@@ -32,22 +32,22 @@ export function Footer() {
             <h3 className="font-orbitron text-white font-semibold mb-4">Услуги</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#catalog" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
+                <a href="#catalog" className="font-space-mono text-gray-400 hover:text-violet-500 transition-colors duration-200">
                   Каталог услуг
                 </a>
               </li>
               <li>
-                <a href="#applications" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
+                <a href="#applications" className="font-space-mono text-gray-400 hover:text-violet-500 transition-colors duration-200">
                   Направления
                 </a>
               </li>
               <li>
-                <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
+                <a href="#" className="font-space-mono text-gray-400 hover:text-violet-500 transition-colors duration-200">
                   Срочный поиск
                 </a>
               </li>
               <li>
-                <a href="#faq" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
+                <a href="#faq" className="font-space-mono text-gray-400 hover:text-violet-500 transition-colors duration-200">
                   Частые вопросы
                 </a>
               </li>
@@ -58,22 +58,22 @@ export function Footer() {
             <h3 className="font-orbitron text-white font-semibold mb-4">Клиентам</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
+                <a href="#" className="font-space-mono text-gray-400 hover:text-violet-500 transition-colors duration-200">
                   Как это работает
                 </a>
               </li>
               <li>
-                <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
+                <a href="#" className="font-space-mono text-gray-400 hover:text-violet-500 transition-colors duration-200">
                   Оплата
                 </a>
               </li>
               <li>
-                <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
+                <a href="#" className="font-space-mono text-gray-400 hover:text-violet-500 transition-colors duration-200">
                   Конфиденциальность
                 </a>
               </li>
               <li>
-                <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
+                <a href="#" className="font-space-mono text-gray-400 hover:text-violet-500 transition-colors duration-200">
                   Контакты
                 </a>
               </li>
@@ -81,17 +81,17 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-red-500/20">
+        <div className="mt-8 pt-8 border-t border-violet-500/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="font-space-mono text-gray-400 text-sm">© 2025 Eckogode. Все права защищены.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 text-sm transition-colors duration-200">
+              <a href="#" className="font-space-mono text-gray-400 hover:text-violet-500 text-sm transition-colors duration-200">
                 Конфиденциальность
               </a>
-              <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 text-sm transition-colors duration-200">
+              <a href="#" className="font-space-mono text-gray-400 hover:text-violet-500 text-sm transition-colors duration-200">
                 Условия использования
               </a>
-              <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 text-sm transition-colors duration-200">
+              <a href="#" className="font-space-mono text-gray-400 hover:text-violet-500 text-sm transition-colors duration-200">
                 Cookie
               </a>
             </div>

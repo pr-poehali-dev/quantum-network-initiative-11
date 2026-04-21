@@ -11,16 +11,16 @@ export function ApplicationsTimeline() {
             боли, восстановление двигательных функций — всё в нашем каталоге.
           </p>
           <div className="space-y-3">
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-violet-400 text-sm">
+              <div className="w-2 h-2 bg-violet-500 rounded-full"></div>
               MindStream Медицинский — для клиник и реабилитации
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-violet-400 text-sm">
+              <div className="w-2 h-2 bg-violet-500 rounded-full"></div>
               NeuroSleep Pro — улучшение качества сна
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-violet-400 text-sm">
+              <div className="w-2 h-2 bg-violet-500 rounded-full"></div>
               Официальные сертификаты FDA и CE
             </div>
           </div>
@@ -36,16 +36,16 @@ export function ApplicationsTimeline() {
             ускоряйте работу и снижайте когнитивную нагрузку.
           </p>
           <div className="space-y-3">
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-violet-400 text-sm">
+              <div className="w-2 h-2 bg-violet-500 rounded-full"></div>
               NeuralLink Pro X1 — управление компьютером мыслью
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-violet-400 text-sm">
+              <div className="w-2 h-2 bg-violet-500 rounded-full"></div>
               Synapseband EEG — фокус и борьба со стрессом
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-violet-400 text-sm">
+              <div className="w-2 h-2 bg-violet-500 rounded-full"></div>
               Рост продуктивности до 3× по данным исследований
             </div>
           </div>
@@ -61,16 +61,16 @@ export function ApplicationsTimeline() {
             следующий уровень взаимодействия с цифровым пространством.
           </p>
           <div className="space-y-3">
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-violet-400 text-sm">
+              <div className="w-2 h-2 bg-violet-500 rounded-full"></div>
               CogniDrive Controller — скорость реакции 0.3 мс
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-violet-400 text-sm">
+              <div className="w-2 h-2 bg-violet-500 rounded-full"></div>
               ThinkAR Glasses — управление AR без рук
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-violet-400 text-sm">
+              <div className="w-2 h-2 bg-violet-500 rounded-full"></div>
               Совместимость с PC, PlayStation, Meta Quest
             </div>
           </div>

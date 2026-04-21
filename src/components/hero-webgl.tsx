@@ -73,8 +73,8 @@ const Scene = () => {
         // Flow effect based on progress
         float flow = 1.0 - smoothstep(0.0, 0.02, abs(depth - uProgress));
 
-        // Red scanning overlay
-        vec3 mask = vec3(dot * flow * 10.0, 0.0, 0.0);
+        // Violet scanning overlay
+        vec3 mask = vec3(dot * flow * 5.0, 0.0, dot * flow * 10.0);
 
         // Combine effects
         vec3 final = baseColor.rgb + mask;
@@ -183,7 +183,7 @@ export const Hero3DWebGL = () => {
         >
           <Button
             size="lg"
-            className="bg-red-500 hover:bg-red-600 text-white font-orbitron text-base px-8 py-4 border-0"
+            className="bg-violet-500 hover:bg-violet-600 text-white font-orbitron text-base px-8 py-4 border-0"
             onClick={() => document.getElementById("catalog")?.scrollIntoView({ behavior: "smooth" })}
           >
             Смотреть услуги

@@ -23,7 +23,7 @@ export function CTASection() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
             {perks.map((perk, i) => (
               <div key={i} className="flex flex-col items-center gap-2 p-4 rounded-lg bg-card/50 border border-primary/20">
-                <Icon name={perk.icon} size={24} className="text-red-500" />
+                <Icon name={perk.icon} size={24} className="text-violet-500" />
                 <span className="text-sm text-muted-foreground text-center leading-tight">{perk.label}</span>
               </div>
             ))}
